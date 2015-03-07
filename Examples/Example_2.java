@@ -15,20 +15,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-public class MiniCalculadora {
+
+
+public class DivisionSegura {
    public static void main(String args[]){
-      int a = 1;
-      int b = 1;
-      char op = '/';
-      System.out.print("El resultado es : ");
-      if ( op == '+' ) {
-          System.out.println( a + b);
-      } else if ( op == '-') {
-          System.out.println( a - b);
-      } else if ( op == '*') {
-          System.out.println( a * b);
-      } else if ( op == '/') {
-          System.out.println( a / b);
-      }
+          int x = 12;
+          int y = 0;
+          int z = 0;
+          if( y !=0 ) z = x / y;
+          System.out.println("El resultado es : " + z);
    }
 }
